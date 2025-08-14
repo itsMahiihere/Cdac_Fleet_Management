@@ -1,20 +1,31 @@
 
-# Fleet Management & Car Rental System - .NET Core Backend
+# Fleet Management & Car Rental System
 
 ## 📌 Overview
-This is a **web-based .NET Core 8.0 Web API** service for the Fleet Management & Car Rental System.  
-It handles backend operations such as authentication, booking management, vehicle management, billing, and other core services.  
-It integrates with the **React frontend** and the **Java Spring Boot microservice** for full system functionality.
+This is a **web-based Fleet Management and Car Rental System** developed for a Rent-a-Car service company.  
+It enables customers to **browse, book, and rent vehicles** with optional add-ons, while company staff can manage bookings, vehicles, locations, and billing.
 
 ---
 
 ## 🛠️ Tech Stack
 
+### **Frontend**
+- React.js
+
 ### **Backend**
-- **.NET 8.0 Web API**
-- Entity Framework Core 8.0
-- JWT Authentication
-- Docker (optional)
+- **Java/Jakarta EE**  
+  - Spring Boot 3  
+  - Spring Framework 6  
+  - Maven 3  
+  - REST API  
+  - JPA/Hibernate  
+  - JWT Authentication  
+  - Docker (for containerization)  
+  - Microservices architecture
+
+- **Microsoft .NET Core**  
+  - .NET Core Web API 8.0  
+  - Entity Framework Core 8.0  
 
 ### **Database**
 - MySQL 8
@@ -24,24 +35,28 @@ It integrates with the **React frontend** and the **Java Spring Boot microservic
 ## 🎯 Features
 
 ### **For Customers (Users)**
-- User registration and login (JWT-based)
 - Browse available vehicles
-- Book vehicles with optional add-ons
+- Select **pickup** & **return** hub
+- Choose optional **add-ons** (e.g., GPS, child seat)
+- Make bookings and manage them
 - View booking history
 
 ### **For Staff/Admin**
-- Manage vehicles, hubs/locations, and add-ons
-- Process vehicle handover and return
-- Generate billing for completed rentals
-- Update vehicle pricing and availability
+- Handover and return vehicles
+- Generate bills for completed rentals
+- Manage fleet: add/update/remove vehicles
+- Manage hubs/locations
+- Manage add-ons and pricing
 
 ---
 
 ## 🏗️ Architecture
-- Microservices-based architecture alongside Java Spring Boot service
-- REST APIs for frontend communication
-- JWT-based authentication and authorization
-- Optional Docker containerization for deployment
+- **Microservices-based** backend (Java Spring Boot & .NET Core services)
+- **REST APIs** for communication between frontend & backend
+- **JWT** for secure authentication & authorization
+- **Docker** for easy deployment
 
 ---
+
+
 
