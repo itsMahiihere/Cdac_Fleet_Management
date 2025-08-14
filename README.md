@@ -57,12 +57,4 @@ It enables customers to **browse, book, and rent vehicles** with optional add-on
 
 ---
 
-## 🚀 How to Run the Project
 
-### **Backend (Spring Boot Java Service)**
-1. Clone the repository
-2. Navigate to the Spring Boot project folder
-3. Configure `application.properties` with MySQL credentials
-4. Run:
-   ```bash
-   mvn spring-boot:run
